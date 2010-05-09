@@ -1,0 +1,1 @@
+rsync -av --progress --stats --delete --filter "- Virtual Machines.localized" --exclude="Parallels" --exclude=".parallels-vm-directory" --exclude=".git" --exclude=".svn" --filter "- .DS_Store" --filter "- *.iso" /Users/ludo/Documents/1_Cours/UTT/ /Users/ludo/Dropbox/UTT
